@@ -78,6 +78,8 @@ augroup configgroup
     autocmd BufEnter *.sh setlocal tabstop=2
     autocmd BufEnter *.sh setlocal shiftwidth=2
     autocmd BufEnter *.sh setlocal softtabstop=2
+    autocmd BufNewFile,BufRead *.command let b:is_bash=1
+    autocmd BufNewFile,BufRead *.command set filetype=sh
 augroup END
 " }}}
 " Backups {{{
