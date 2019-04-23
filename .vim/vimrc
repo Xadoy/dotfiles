@@ -38,6 +38,7 @@ set foldlevelstart=10    " start with fold level of 1
 "nnoremap $ <nop>
 "nnoremap ^ <nop>
 nmap gV `[v`]
+nnoremap gb :ls<cr>:b<space>
 " }}}
 " Leader Shortcuts {{{
 let mapleader=","
