@@ -1,6 +1,7 @@
 " Colors {{{
 syntax enable           " enable syntax processing
 colorscheme codedark 
+hi Normal guibg=NONE ctermbg=NONE
 " }}}
 " Spaces & Tabs {{{
 set tabstop=4           " 4 space tab
