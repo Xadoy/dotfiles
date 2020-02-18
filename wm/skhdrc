@@ -1,5 +1,8 @@
 # open terminal
-cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
+cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
+
+# open chrome
+alt - return : open -a "Google Chrome" -n
 
 # focus window
 alt - h : yabai -m window --focus west
